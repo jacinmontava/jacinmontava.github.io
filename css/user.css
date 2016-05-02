@@ -1,0 +1,12 @@
+/*
+
+  Use this file to add any custom modifications.
+  Doing this will allow you to update this template easily.
+
+*/
+
+.section-title,
+.portfolio h2 {
+  background: #B6090B; /* Primary color */
+  color: #fff;
+}
