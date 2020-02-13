@@ -2,7 +2,10 @@
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0">
@@ -38,6 +41,19 @@
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
 
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'GA_TRACKING_ID');
+  </script>
+
 </head>
 
 <body>
@@ -50,118 +66,132 @@
       <article>
 
         <div class="wrap-ribbons">
-          <a class="ribbon ribbon" href="Cv-JacinMontava.pdf">Descargar <em>CV</em></a>
-          <!--<a class="ribbon ribbon2 zoom-html" href="#contacts">Contacto</a>-->
+          <a class="ribbon ribbon" onclick="window.print();">Descargar
+            <em>CV</em>
+          </a>
+          <a class="ribbon ribbon2" href="mailto:jmontava@gmail.com" target="_blank">Contacto</a>
         </div>
 
         <div class="wrap-title">
-          <h1><span>Jacinto M. Montava</span></h1>
+          <h1>
+            <span>Jacinto M. Montava</span>
+          </h1>
           <p>Desarrollador Web y Móvil</p>
         </div>
 
       </article>
     </header>
 
-	<!-- header -->
-	
+    <!-- header -->
+
     <!-- informacion -->
 
-    <div class="row row-info">
+    <!-- <div class="row row-info">
       <article class="markup">
-
         <h2 class="section-title">Sobre Mí</h2>
-
         <p>
-          Desarrollador y programador web con experiencia en creación de páginas web e intranets bajo PHP, MySQL, xHTML, CSS, Javascript y AJAX.<br />Desarrollador móvil con experiencia en iOS y Android.
+          Desarrollador y programador web con experiencia en creación de páginas web e intranets bajo PHP, MySQL, xHTML,
+          CSS, Javascript y AJAX.
+          <br />Desarrollador móvil con experiencia en iOS y Android.
         </p>
-
       </article>
-    </div>
-    
+    </div> -->
+
     <!-- informacion -->
-    
+
     <!-- experiencia -->
 
     <div class="row row-experience">
       <article>
         <h2 class="section-title">Experiencia</h2>
+        <div class="column-row">
+          <div class="column column-no-logo">
+            <h3>Desarrollador backend/frontend</h3>
+            <!-- Logo on the left of the column -->
+            <a href="#" target="_blank" class="logo">
+              <img src="./img/64x64.png" alt="" />
+            </a>
+            <p class="subtitle">
+              <a href="http://www.wlynx.es/" target="_blank">White Lynx Business</a>
+              <br /> Julio 2017 - Febrero 2020
+            </p>
+            <div class="smaller-text">
+              <p>Desarrollador backend/frontend.</p>
+              <p>Android SDK, Java, GIT, PHP, NodeJS, Angular, JavaScript, Ionic Framework</p>
+            </div>
+          </div>
+
+          <div class="column column-no-logo">
+            <h3>Desarrollador iOS, Android, Java</h3>
+            <!-- Logo on the left of the column -->
+            <a href="#" target="_blank" class="logo">
+              <img src="./img/64x64.png" alt="" />
+            </a>
+            <p class="subtitle">
+              <a href="http://www.everis.com/" target="_blank">everis NTT Data</a>
+              <br /> Septiembre 2015 - Junio 2017
+            </p>
+            <div class="smaller-text">
+              <p>Desarrollador iOS y Android, Java.</p>
+              <p>Objective-C, Cocoa, Android SDK, Java, GIT.</p>
+            </div>
+          </div>
+
+        </div>
 
         <div class="column-row">
-        	
+          <div class="column column-no-logo">
+            <h3>Desarrollador Java, JPA</h3>
+            <!-- Logo on the left of the column -->
+            <a href="#" target="_blank" class="logo">
+              <img src="./img/64x64.png" alt="" />
+            </a>
+            <p class="subtitle">
+              <a href="http://www.gfi.es/" target="_blank">GFI Levante</a>
+              <br /> 6 meses, Diciembre 2014 - Mayo 2015
+            </p>
+            <div class="smaller-text">
+              <p>Desarrollador senior en el proyecto Telco 3.0 para Telefónica.</p>
+              <p>Java, JPA, J2EE, REST, SVN, Jira.</p>
+            </div>
+          </div>
+
           <div class="column column-no-logo">
             <h3>Desarrollador iOS, Android</h3>
-
             <!-- Logo on the left of the column -->
             <a href="#" target="_blank" class="logo">
               <img src="./img/64x64.png" alt="" />
             </a>
             <p class="subtitle">
-              <a href="http://www.everis.com/" target="_blank">everis NTT Data</a> <br />
-              Septiembre 2015 ...
-            </p>
-            <div class="smaller-text">
-            <p>Desarrollador iOS y Android</p>
-            <p>Objective-C, Cocoa, Android SDK, Java, GIT.</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="column-row">
-        	
-        	<div class="column column-no-logo">
-            <h3>Desarrollador Java, JPA</h3>
-
-            <!-- Logo on the left of the column -->
-            <a href="#" target="_blank" class="logo">
-              <img src="./img/64x64.png" alt="" />
-            </a>
-            <p class="subtitle">
-              <a href="http://www.gfi.es/" target="_blank">GFI Levante</a> <br />
-              6 meses, Diciembre 2014 - Mayo 2015
-            </p>
-            <div class="smaller-text">
-            <p>Desarrollador senior en el proyecto Telco 3.0 para Telefónica.</p>
-            <p>Java, JPA, J2EE, REST, SVN, Jira, Maven, JUnit.</p>
-            </div>
-          </div>
-        	
-        	<div class="column column-no-logo">
-            <h3>Desarrollador iOS, Android</h3>
-
-            <!-- Logo on the left of the column -->
-            <a href="#" target="_blank" class="logo">
-              <img src="./img/64x64.png" alt="" />
-            </a>
-            <p class="subtitle">
-              <a href="http://www.infolot.es/" target="_blank">Infolot</a> <br />
-              13 meses, Noviembre 2013 - Diciembre 2014
+              <a href="http://www.infolot.es/" target="_blank">Infolot</a>
+              <br /> 13 meses, Noviembre 2013 - Diciembre 2014
             </p>
             <div class="smaller-text">
               <p>
-                Desarrollo de la app de <a href="http://www.buscarloteria.com/">Buscar Lotería</a> para iOS y Android.
+                Desarrollo de la app de
+                <a href="http://www.buscarloteria.com/">Buscar Lotería</a> para iOS y Android.
               </p>
-              <p><a href="https://itunes.apple.com/es/app/buscar-loteria/id778739176?mt=8">iOS App Link</a></p>
-              <p><a href="https://play.google.com/store/apps/details?id=com.buscarloteria.buscarloteria">Android App Link</a></p>
+              <p>
+                <a href="https://itunes.apple.com/es/app/buscar-loteria/id778739176?mt=8">iOS App Link</a>
+              </p>
+              <p>
+                <a href="https://play.google.com/store/apps/details?id=com.buscarloteria.buscarloteria">Android App
+                  Link</a>
+              </p>
             </div>
-            <p class="reference">
-              persona de referencia<br />
-              <a href="mailto:jfgomis@gmail.com" target="_blank">Fernando Gomis</a>
-            </p>
           </div>
         </div>
-        
-		<div class="column-row">
-        	
-        	<div class="column column-no-logo">
-            <h3>Desarrollador iOS, Android</h3>
 
+        <div class="column-row">
+          <div class="column column-no-logo">
+            <h3>Desarrollador iOS, Android</h3>
             <!-- Logo on the left of the column -->
             <a href="#" target="_blank" class="logo">
               <img src="./img/64x64.png" alt="" />
             </a>
             <p class="subtitle">
-              <a href="#" target="_blank">Freelance</a> <br />
-              Desde 2013
+              <a href="#" target="_blank">Freelance</a>
+              <br /> Desde 2013
             </p>
             <div class="smaller-text">
               <p>
@@ -170,218 +200,200 @@
               <p>Objective-C, Swift, Android SDK, Cordova SDK, Unity.</p>
             </div>
           </div>
-        	
-        	<div class="column column-no-logo">
-            <h3>Desarrollador PHP</h3>
 
-            <!-- Logo on the left of the column -->
-            <a href="#" target="_blank" class="logo">
-              <img src="./img/64x64.png" alt="" />
-            </a>
-            <p class="subtitle">
-              <a href="http://www.comparatumovil.com" target="_blank">123 Móvil</a><br />
-              3 meses, 2013 &mdash; 2013
-            </p>
-            <div class="smaller-text">
-              <p>
-                Encargado del diseño y desarrollo del comparador de precios de móviles usados <a href="http://www.comparatumovil.com" target="_blank">Compara Tu Móvil</a><br />
-              </p>
-            </div>
-            <p class="reference">
-              persona de referencia<br />
-              <a href="mailto:djornet.ramis@gmail.com" target="_blank">David Jornet</a>
-            </p>
-          </div>
-        </div>
-        
-		<div class="column-row">
           <div class="column column-no-logo">
             <h3>Desarrollador PHP</h3>
-
             <!-- Logo on the left of the column -->
             <a href="#" target="_blank" class="logo">
               <img src="./img/64x64.png" alt="" />
             </a>
             <p class="subtitle">
-              <a href="http://www.webesfera.com/webcms/index.php" target="_blank">Webesfera Consulting S.L.</a> &mdash; Consultoría informática<br />
-              6 años, 2007 &mdash; 2013
+              <a href="http://www.comparatumovil.com" target="_blank">123 Móvil</a>
+              <br /> 3 meses, 2013 &mdash; 2013
             </p>
             <div class="smaller-text">
               <p>
-                Encargado del desarrollo del CMS y tienda virtual propios de la empresa. Desarrollo de aplicaciones web e intranets.
+                Encargado del diseño y desarrollo del comparador de precios de móviles usados
+                <a href="http://www.comparatumovil.com" target="_blank">Compara Tu Móvil</a>
+                <br />
               </p>
             </div>
-            <p class="reference">
-              persona de referencia<br />
-              <a href="mailto:jmgosalbez@gmail.com" target="_blank">José Miguel Gosalbez</a>
-            </p>
           </div>
-          
-          <div class="column column-no-logo">
-            <h3>Maquetador Web</h3>
-
-            <!-- Logo on the left of the column -->
-            <a href="#" target="_blank" class="logo">
-              <img src="./img/64x64.png" alt="" />
-            </a>
-            <p class="subtitle">
-              <a href="http://www.graficacomunicacion.com/web/" target="_blank">Gráfica Comunicación Creativa</a> &mdash; Agencia de Publicidad<br />
-              2 años, 2011 &mdash; 2013
-            </p>
-            <div class="smaller-text">
-              <p>
-                Maquetación xHTML, CSS. <br /> Fotografía publicitaria.
-              </p>
-            </div>
-            <p class="reference">
-              persona de referencia<br />
-              <a href="mailto:pacografica@gmail.com" target="_blank">Paco Ortega</a>
-            </p>
-          </div>
-
         </div>
-        
+
         <div class="column-row">
-
           <div class="column column-no-logo">
             <h3>Desarrollador PHP</h3>
-
             <!-- Logo on the left of the column -->
             <a href="#" target="_blank" class="logo">
               <img src="./img/64x64.png" alt="" />
             </a>
             <p class="subtitle">
-              <a href="#" target="_blank">Freelance</a> <br />
-              Desde 2007
+              <a href="http://www.webesfera.com/webcms/index.php" target="_blank">Webesfera Consulting S.L.</a> &mdash;
+              Consultoría informática
+              <br /> 6 años, 2007 &mdash; 2013
             </p>
             <div class="smaller-text">
               <p>
-                Desarrollo de backends bajo PHP, javascript, ajax,...<br />Maquetación xHTML, CSS.
+                Encargado del desarrollo del CMS y tienda virtual propios de la empresa. Desarrollo de aplicaciones web
+                e intranets.
               </p>
             </div>
           </div>
-          
+
           <div class="column column-no-logo">
             <h3>Maquetador Web</h3>
-
             <!-- Logo on the left of the column -->
             <a href="#" target="_blank" class="logo">
               <img src="./img/64x64.png" alt="" />
             </a>
             <p class="subtitle">
-              <a href="#" target="_blank">Netjor</a> &mdash; Soluciones digitales<br />
-              3 años, 2004 &mdash; 2007
+              <a href="http://www.graficacomunicacion.com/web/" target="_blank">Gráfica Comunicación Creativa</a>
+              &mdash; Agencia de Publicidad
+              <br /> 2 años, 2011 &mdash; 2013
             </p>
             <div class="smaller-text">
               <p>
-                Maquetación xHTML, CSS <br />
+                Maquetación xHTML, CSS.
+                <br /> Fotografía publicitaria.
               </p>
             </div>
-            <p class="reference">
-              persona de referencia<br />
-              <a href="mailto:djornet.ramis@gmail.com" target="_blank">David Jornet</a>
-            </p>
           </div>
 
         </div>
 
+        <div class="column-row">
+          <div class="column column-no-logo">
+            <h3>Desarrollador PHP</h3>
+            <!-- Logo on the left of the column -->
+            <a href="#" target="_blank" class="logo">
+              <img src="./img/64x64.png" alt="" />
+            </a>
+            <p class="subtitle">
+              <a href="#" target="_blank">Freelance</a>
+              <br /> Desde 2007
+            </p>
+            <div class="smaller-text">
+              <p>
+                Desarrollo de backends bajo PHP, javascript, ajax,...
+                <br />Maquetación xHTML, CSS.
+              </p>
+            </div>
+          </div>
+
+          <div class="column column-no-logo">
+            <h3>Maquetador Web</h3>
+            <!-- Logo on the left of the column -->
+            <a href="#" target="_blank" class="logo">
+              <img src="./img/64x64.png" alt="" />
+            </a>
+            <p class="subtitle">
+              <a href="#" target="_blank">Netjor</a> &mdash; Soluciones digitales
+              <br /> 3 años, 2004 &mdash; 2007
+            </p>
+            <div class="smaller-text">
+              <p>
+                Maquetación xHTML, CSS
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
       </article>
     </div>
-    
+
     <!-- experience -->
-    
+
     <!-- estudios -->
 
     <div class="row row-education">
       <article>
-
-        <h2 class="section-title">Educación</h2>
-
+        <h2 class="section-title">Formación</h2>
         <div class="column-row">
-
           <div class="column column-no-logo">
             <h3>Especialista Universitario en Computación móvil y ubicua</h3>
             <a href="#" target="_blank" class="logo">
               <img src="./img/64x64.png" alt="" />
             </a>
             <p class="subtitle">
-              <a href="http://computacionmovil.blogs.upv.es/" target="_blank">Universitat Politècnica de València</a>, Campus d'Alcoi<br />
-              Febrero 2013 &mdash; Octubre 2013
+              <a href="http://computacionmovil.blogs.upv.es/" target="_blank">Universitat Politècnica de València</a>,
+              Campus d'Alcoi
+              <br /> Febrero 2013 &mdash; Octubre 2013
             </p>
             <div class="smaller-text">
               <p>
-                Título de Especialista Universitario en desarrollo de aplicaciones para dispositivos móviles: iOS, Android, Windows Phone. También se adquieren conocimientos en el desarrollo de WebbApps, computación en nube y arquitecturas orientadas a servicios.  
+                Título de Especialista Universitario en desarrollo de aplicaciones para dispositivos móviles: iOS,
+                Android, Windows Phone.
+                También se adquieren conocimientos en el desarrollo de WebbApps, computación en nube y arquitecturas
+                orientadas
+                a servicios.
               </p>
             </div>
           </div>
-          
+
           <div class="column column-no-logo">
             <h3>Máster en diseño y programación web</h3>
             <a href="#" target="_blank" class="logo">
               <img src="./img/64x64.png" alt="" />
             </a>
             <p class="subtitle">
-              Escuela Artes, Alicante<br />
-              2005 &mdash; 2007
+              Escuela Artes, Alicante
+              <br /> 2005 &mdash; 2007
             </p>
             <div class="smaller-text">
-              <p><br />
-              	Desarrollo de webs, aplicaciones web e intranets con PHP, MySQL, Javascript y Ajax. Maquetación web mediante HTML, xHTML, CSS y jQuery
+              <p>
+                <br /> Desarrollo de webs, aplicaciones web e intranets con PHP, MySQL, Javascript y Ajax. Maquetación
+                web mediante
+                HTML, xHTML, CSS y jQuery
               </p>
             </div>
           </div>
-
         </div>
-
       </article>
     </div>
-    
+
     <!-- estudios -->
-    
+
     <!-- conocimientos -->
 
     <div class="row row-skills row-skills-1 no_print">
       <article>
-
         <h2 class="section-title">Conocimientos</h2>
-
         <div class="skills-with-ratings">
-
           <div class="skills-group">
-
             <div class="skill">
-              <h4 class="stars-5">PHP</h4>
+              <h4 class="stars-4">PHP</h4>
             </div>
             <div class="skill">
               <h4 class="stars-4">MySQL</h4>
             </div>
             <div class="skill">
-              <h4 class="stars-4">AJAX</h4>
+              <h4 class="stars-4">NodeJs</h4>
             </div>
             <div class="skill">
-              <h4 class="stars-4">Objective-C</h4>
+              <h4 class="stars-4">Android SDK</h4>
             </div>
             <div class="skill">
-              <h4 class="stars-3">Swift</h4>
+              <h4 class="stars-4">Angular Framework</h4>
             </div>
           </div>
 
           <div class="skills-group">
 
             <div class="skill">
-              <h4 class="stars-5">HTML, xHTML</h4>
+              <h4 class="stars-5">HTML</h4>
             </div>
             <div class="skill">
               <h4 class="stars-5">CSS</h4>
             </div>
             <div class="skill">
-              <h4 class="stars-4">Javascript, jQuery</h4>
+              <h4 class="stars-4">Javascript</h4>
             </div>
             <div class="skill">
-              <h4 class="stars-4">Cocoa Touch</h4>
+              <h4 class="stars-4">Ionic Framework</h4>
             </div>
             <div class="skill">
-              <h4 class="stars-3">Android SDK</h4>
+              <h4 class="stars-3">Flutter</h4>
             </div>
           </div>
 
@@ -389,43 +401,48 @@
 
       </article>
     </div>
-    
+
     <!-- conocimientos -->
-    
+
     <!-- conocimientos 2 -->
 
     <div class="row row-skills row-skills-2">
       <article>
 
-        <h2 class="section-title"><span class="no_print">Otros</span> conocimientos</h2>
+        <h2 class="section-title">
+          <span class="no_print">Otros</span> conocimientos</h2>
 
         <div class="skills">
           <p>
-          	HTML, CSS, PHP, POO, MySQL, JavaScript, AJAX, jQuery, jQuery Mobile, Mac OSX, iOS,<br />
-          	<b class="caption">Conocimiento alto</b>
-            Objective-C, Cocoa Touch, Java, Android SDK, GIT, Fotografía, Adobe Lightroom, Camera Raw
+            HTML5, CSS3, PHP, POO, MySQL, JavaScript, Angular, NodeJs, Ionic,
+            <br />
+            <b class="caption">Conocimiento alto</b>
+            Flutter, Java, Android SDK, GIT, MacOSX, Linux, iOS
           </p>
           <p>
-            HTML5, CSS3, Wordpress, Adobe Photoshop, Apple Aperture, Adobe Dreamweaver, Linux,<br />
+            MongoDb, Bootstrap, Wordpress, Objective-C, Cocoa Touch
+            <br />
+            IoT, Arduino, NodeRed, MQTT, Raspberry Pi, 
+            <br />
             <b class="caption">Conocimiento medio</b>
-            Symfony2, Swift, 
+            Fotografía, Adobe Lightroom, Camera Raw, Adobe Photoshop
           </p>
           <p>
             <b class="caption">Aprendiendo...</b>
-            AngularJs, C++, Python, Ruby, Facebook API, Google API's, Inglés, NodeJS
+            Kotlin, Swift, React, Symfony, Laravel, Python, Ruby, Facebook API, Google API's, Inglés
           </p>
         </div>
 
       </article>
     </div>
-    
+
     <!-- conocimientos 2 -->
-    
-    
-    
+
+
+
     <!-- form contacto -->
 
-    <div class="row row-contact" id="contact_row">
+    <!-- <div class="row row-contact" id="contact_row">
       <article>
 
         <h2 class="section-title">Contacto</h2>
@@ -439,12 +456,12 @@
                 <th><label for="contact_name">Nombre</label></th>
                 <td><input type="text" class="input-text" name="contact_name" id="contact_name" value=""></td>
               </tr>
-              <!-- start spam protection -->
+              <!-- start spam protection 
               <tr class="spam-protection">
                 <th><label>E-mail</label></th>
                 <td><input type="text" name="email" value=""></td>
               </tr>
-              <!-- end -->
+              <!-- end 
               <tr>
                 <th><label for="contact_email">E-mail</label></th>
                 <td><input type="text" class="input-text input-email" name="contact_email" id="contact_email"></td>
@@ -474,8 +491,8 @@
         </div>
 
       </article>
-    </div>
-    
+    </div> -->
+
     <!-- form contacto -->
 
     <div class="row row-profile row-inversed">
@@ -501,19 +518,22 @@
             <td>+ 34 626 270 357</td>
           </tr>
           <tr>
-            <th>E-Mail</th>
-            <td>jmontava@gmail.com <br /><!--<a href="#contacts" class="zoom-html">formulario de contacto</a>--></td>
+            <th>GitHub</th>
+            <td><a href="https://github.com/jacinmontava">https://github.com/jacinmontava</a></td>
           </tr>
-          <!-- <tr>
-            <th>Blog</th>
-            <td><a href="http://www.jacinmontava.es" target="_blank">www.jacinmontava.es</a></td>
-          </tr> -->
+          <tr>
+            <th>E-Mail</th>
+            <td>jmontava@gmail.com
+              <br />
+              <a href="mailto:jmontava@gmail.com" target="_blank">contacto</a>
+            </td>
+          </tr>
         </table>
 
         <div class="profile-pic">
           <img src="./img/jacinmontava_qr.png" alt="" />
         </div>
-        
+
         <div class="profile-pic-print">
           <img src="./img/jacinmontava_cv_qr.png" alt="" />
         </div>
@@ -527,32 +547,12 @@
         <ul class="icons">
           <li>
             <a href="https://twitter.com/jacinmontava" target="_blank" rel="me">
-              <img src="./img/icons/social_twitter.png" alt="" />
-              @jacinmontava
+              <img src="./img/icons/social_twitter.png" alt="" /> @jacinmontava
             </a>
           </li>
           <li>
             <a href="http://es.linkedin.com/pub/jacin-montava/44/756/24a/" target="_blank" rel="me">
-              <img src="./img/icons/social_linked_in.png" alt="" />
-              linkedin.com
-            </a>
-          </li>
-          <li>
-            <a href="https://plus.google.com/u/0/104094936716934153460" target="_blank" rel="me">
-              <img src="./img/icons/social_google_plus.png" alt="" />
-              Google plus
-            </a>
-          </li>
-          <li>
-            <a href="https://delicious.com/jacinmontava" target="_blank">
-              <img src="./img/icons/social_delicious.png" alt="" />
-              Delicious
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/user/jacinmontava" target="_blank" rel="me">
-              <img src="./img/icons/social_you_tube.png" alt="" />
-              Youtube
+              <img src="./img/icons/social_linked_in.png" alt="" /> linkedin.com
             </a>
           </li>
         </ul>
@@ -563,13 +563,17 @@
   </div>
 
   <footer class="wrap-footer">
-      <div class="fl">&copy; Jacin Montava, 2016.</div>
-      <div class="fr"><!-- text on the right of the footer line --></div>
+    <div class="fl">&copy; Jacin Montava, 2020.</div>
+    <div class="fr">
+      <!-- text on the right of the footer line -->
+    </div>
   </footer>
 
   <!-- jQuery 1.6.2 -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <script>
+    window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')
+  </script>
 
   <!-- jQuery Fancybox plugin === http://fancybox.net/howto -->
   <script src="js/libs/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
@@ -578,18 +582,21 @@
   <script defer src="js/script.js"></script>
 
   <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4420698-1']);
+    _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-4420698-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+      '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
 </body>
+
 </html>
