@@ -1,0 +1,17 @@
+{
+    "name": "Esmorzar dia de l'Entrà",
+    "date": "1619071200",
+    "description": "Esmorzar dia de l'Entrà",
+    "id": "2xL4Ri1ye8khcs8oExRA",
+    "place": {
+        "address": "C/ Caldera del Gas, 6",
+        "city": "Alcoi",
+        "coords": {
+            "latitud": "38.6949317",
+            "longitud": "-0.4784872"
+        },
+        "cp": "03801",
+        "name": "Filà Navarros",
+        "province": "Alacant"
+    }
+}
